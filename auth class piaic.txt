@@ -1,3 +1,54 @@
+
 emn178.github.io/online-tools/sha256.html
 authentication:authentication hoge phr authorization hoge
 authorization:authentication check karega ky howe vi h usky baad authentication hoge
+middleware:platfoam sy bahr chaly gaye
+wapas aaogy tu box check krwaogy andar any ky liye check krwaogy
+box ko jwt json token woh token apko jwt ki web pe milega jwt.io
+ALGORITHM & TOKEN TYPE ki value h 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9 red wala h algorithum
+eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ information in purple
+user data hota h
+SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c token donga apky pas agaya
+your-256-bit-secret key sy jan sakty hain kia cheez h ismy
+its a incrpeted token
+jwt apko mil gaya variable ky andar agaya
+token ko user ky browser m save krwatay hain
+local storage m save krwatay hain
+sbka partsame rhega
+key sy password ko incrpt krsakty decript nh krsakta
+password user ky incripted krky rakhein
+permission ka process banta h jwd pe
+data ky zariye jwd token generate kia (http only cookies) har req ky sath jata h
+cookies sy token ko get krlia token ko decode krengy
+token ko verify krengy
+token m ik bhi cheez change krlein tu token khrb hojayega
+sbsy phely token check krtay hain sahi aya h cookies ky sath ya nh
+jwt verify h tu haamay data mil gaya 
+id aur email dono chezain arhi h
+jwt hamara verify h
+us email id ky againts check krengy ky jwt m h ya nh
+dobara database m check krengy decoded data ko
+response m direct token select krein 
+server sy set krky response m bhejtay hain
+api pe req krtay hain 
+protected route h har koi acess nh krsakta in api sy hum check krtay h user exist h ya nh
+http only m koi bhi token acces nh krpayega user
+meri req gaya dashboard pe gaye bhej di 
+middleware ik function h server pe chalega
+middleware phely ayega
+codevoweb.com/jwt-authentication-in-nextjs-13-api-route-handlers/
+export const POST = async(request:NextRequest) =>{
+const body
+return{message:"Hello World}
+}
+
+http://local:3000/api/auth/login
+http://local:3000/api/auth/get-user
+{
+    "email":"admin",
+    "password":"admin"
+}
+
+https://github.com/panva/jose/blob/main/docs/classes/jwt_sign.SignJWT.md
+bycrupt
